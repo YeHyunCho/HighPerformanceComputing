@@ -1,5 +1,9 @@
 # HighPerformanceComputing
 
+The point of high performance computing is the speed of computer. Computer has two type, one is **sequencial** and the other one is **Parallel**. Sequencial program has one process in one task. So if you try to run 4 programs its speed is going to be four times slower. But when you use the parallel programming, it compensates for the slowdown.
+
+In this lecture, I could learn how to use parallel programming in computer.
+
 ## Chapter 1 Instruction
 
 ### Hardware
