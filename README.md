@@ -6,71 +6,71 @@ In this lecture, I could learn how to use parallel programming in computer.
 
 ## Chapter 1 Instruction
 
-**Hardware**
+**1. Hardware**
 - Flynn'n taxonomy
 - The Von Neumann machine
 
-**Parallel Computers**
+**2. Parallel Computers**
 - SIMD(Single instruction, Multiple data)
 - MIMD(Multiple instruction, Multiple data)
 
-**Software for MIMD Computers**
+**3. Software for MIMD Computers**
 - Shared memory programming
 - Distributed memory(message passing)
 
 ## Chapter 2 Performance
 
-**Execution time**
+**1. Execution time**
 - Time stamp program for wall-clock time(=elapsed time)
 - `gettimeofday()`
 
-**CPU time**
+**2. CPU time**
 - Theoretical time
 - Clock syscles counts per instruction
 
-**MFLOPS**
+**3. MFLOPS**
 - Millions of Floting-point Operations Per Second
 
 ## Chapter 3 Shared Memory Programming
 
-**IPC**
+**1. IPC**
 - Inter Process comunication
 - Semaphore
 
-**OpenMP(Multi Processing)**
+**2. OpenMP(Multi Processing)**
 - OpenMP compiler directive
 - Parallelizing loops
 
 ## Chapter 4 MPI(Message Passing Interface)
 
-**Compile & Run**
+**1. Compile & Run**
 - Compile : `mpicc -o filename filename.c`
 - Run : `mpiexc -n np filename`
 
-**Structure of MPI programs**
+**2. Structure of MPI programs**
 - Initialize MPI program
 - Functions, data type and idintifier of MPI
 
-**Basic Routines**
+**3. Basic Routines**
 - Get processes's size and rank
 - Run on different processors
 
-**Collective coummunication**
+**4. Collective coummunication**
 - Broadcasting
 - Reduction
 - Scatter and Gather
 - Scatterv and Gatherv
 
-**Grouping data for communication**
+**5. Grouping data for communication**
 - Structure type
 - Vector type
 - Index data type
 
-**Communicators**
+**6. Communicators**
 - Create a new communicator from the old communicator
 - Splits an old communicator and create new communicators
 
-**Grid Topology**
+**7. Grid Topology**
 - MPI_Cart_create()
 - MPI_Cart_coords()
 - MPI_Cart_rank()
@@ -78,11 +78,11 @@ In this lecture, I could learn how to use parallel programming in computer.
 
 ## Chapter 5 GPU Progamming (CUDA)
 
-**Introduction**
+**1. Introduction**
 - GPU(Graphic Processing Unit)
 - CUDA(Computer Unified Device Architecture)
 
-**CUDA Programming**
+**2. CUDA Programming**
 - Compile
 - Kernel
 - Thread Hierarchy
