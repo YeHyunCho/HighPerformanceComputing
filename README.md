@@ -1,7 +1,6 @@
 # HighPerformanceComputing
 
 ## Chapter 1 Instruction
-*****
 
 ### Hardware
 - Flynn'n taxonomy
@@ -16,7 +15,6 @@
 - Distributed memory(message passing)
 
 ## Chapter 2 Performance
-*****
 
 ### Execution time
 - Time stamp program for wall-clock time(=elapsed time)
@@ -40,7 +38,6 @@
 - Parallelizing loops
 
 ## Chapter 4 MPI(Message Passing Interface)
-*****
 
 ### Compile & Run
 - Compile : `mpicc -o filename filename.c`
@@ -76,7 +73,6 @@
 - MPI_Cart_shift()
 
 ## Chapter 5 GPU Progamming (CUDA)
-*****
 
 ### Introduction
 - GPU(Graphic Processing Unit)
